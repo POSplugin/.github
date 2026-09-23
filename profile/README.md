@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/POSplugin/.github/main/assets/readme-banner.png" alt="PosPlugin. Any POS. One API. Live in 30 minutes." width="100%">
+  <img src="https://raw.githubusercontent.com/POSplugin/.github/main/assets/banner-posplugin.png" alt="PosPlugin. Any POS. One API. Live in 30 minutes." width="100%">
 </p>
 
 <p align="center">
