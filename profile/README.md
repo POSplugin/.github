@@ -33,22 +33,25 @@ The target is a new merchant live in under 30 minutes, with a free sandbox to bu
 | | What it is | Status |
 | :--- | :--- | :--- |
 | **Site** | [posplug.in](https://posplug.in): the product, the six-step setup, the planned API | **Live** |
-| **Early access** | Tell us which POS systems you need. Access opens in waves, restaurants first | **Open** |
+| **Early access** | Tell us which POS systems you need. Access opens in waves, restaurants first | **Open** (live signup) |
 | **Connectors, AI mapping, unified API** | The product itself | **In development** |
 | **Sandbox** | Test POS data, the full API and webhooks. Free | **Planned** |
 | **Live** | Priced per connected location, set with early customers | **Planned** |
 
 ## Security, by design
 
-No card data stored (out of PCI card-data scope) · encrypted in transit and at rest · POS credentials in
-a secrets vault · per-tenant isolation · a full audit log, including every AI decision · GDPR export,
-deletion and regional storage.
+Designed in, not yet audited (early access): no full card numbers, only brand and last four as the POS
+returns them · encrypted in transit and at rest · POS credentials sealed per merchant · per-tenant
+isolation · an audit log of every mapping change and every AI decision · built for GDPR (export,
+deletion, regional storage, a DPA listing every sub-processor).
 
 ## Repositories
 
 | Repo | What |
 | :--- | :--- |
 | [`website`](https://github.com/POSplugin/website) | The landing site. Static HTML, one CSS, one JS, Cloudflare Pages |
+| `waitlist-backend` | The early-access list at api.posplug.in, on the Cratefield harness. Private |
+| `backend` | The product: connectors, Jev-driven mapping, unified API and webhooks. Private; the plan is written, the code is not |
 
 Questions or a POS you need covered: **contact@posplug.in**
 
