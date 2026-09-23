@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/POSplugin/.github/main/assets/readme-banner.png" alt="PosPlug. Any POS. One API. Live in 30 minutes." width="100%">
+  <img src="https://raw.githubusercontent.com/POSplugin/.github/main/assets/readme-banner.png" alt="PosPlugin. Any POS. One API. Live in 30 minutes." width="100%">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 **Connecting to a merchant's point-of-sale system is a custom integration every time.** There are
 hundreds of POS systems, each with its own API, and the work breaks whenever a vendor changes theirs.
 
-**PosPlug is one integration instead of hundreds.** It connects to the POS, its AI maps the POS's fields
+**PosPlugin is one integration instead of hundreds.** It connects to the POS, its AI maps the POS's fields
 to one clean data model, and your app reads every merchant through one REST API and one webhook stream.
 
 - **Connect** with OAuth or an API key. Discovery is read-only; nothing is written to the POS.
@@ -51,3 +51,5 @@ deletion and regional storage.
 | [`website`](https://github.com/POSplugin/website) | The landing site. Static HTML, one CSS, one JS, Cloudflare Pages |
 
 Questions or a POS you need covered: **contact@posplug.in**
+
+PosPlugin is a venture of [Factory Zero](https://factory0.ventures/ventures/posplugin/) (Factory Zero Pte. Ltd.).
